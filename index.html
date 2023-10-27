@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Carlen Miranda">
+    <meta name="description" content="Portafolio de desarrollo web de Carlen Miranda>
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>CarLen Miranda | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://i.pinimg.com/564x/96/1f/3b/961f3bca0eab746ba13c175c84d4caae.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#yo soy">Yo Soy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://i.pinimg.com/564x/d5/69/57/d56957bc344e7a3a63602a39b239e498.jpg" width="79" alt="Foto de CarLen Miranda">
+        <h1>Hola, soy Carlen Miranda</h1>
+        <!--<h2>Soy Artista Digital y futura Curadora.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://i.pinimg.com/564x/5b/85/79/5b857945d21307347e27a05613d1288c.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React." width="300">
+        <img class="hero-inferior-imagen img-fluid" src="https://i.pinimg.com/564x/b4/6e/82/b46e82f15ddd247719e6627e66bc446c.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React." width="500">
+        <img class="hero-inferior-imagen img-fluid" src="https://i.pinimg.com/564x/c1/07/57/c1075769034b77a06cbe398e5eaa39fd.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React." width="350">
+        <img class="hero-inferior-imagen img-fluid" src="https://i.pinimg.com/564x/d0/cd/55/d0cd559358fbdd3673ec67b8430efb42.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React." width="350">
+      </div>
+    </section>
+
+    <!-- yo soy -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Yo soy </h2>
+        <p class="seccion-texto">Mujer criada en la ciudad de Mexico, aprendio desde muy niña el valor de la independencia, que todo lo que valga la pena no es facil, y sobre todo a tener una mente abierta. 
+
+          El arte representa una forma de expresion diferente, no hablamos de algo que este oculto o incomodo, que se justifique con la experimentacion, mas bien utilizar lo cotidiano, simple, hermoso y grotesco que te da la vida.
+          
+          Participando desde los 17 años en multiples convocatorias debido a su formacion en el diseño grafico, su obra esta orientada a lo digital, sin embargo tambien lo plastico a sido de su interes, las obras plasticas han formado parte del Festival Quimera 2022.
+          
+          ​
+          
+          Uno de sus referentes mas significativos es el mangaka Junji Ito, por su estilo grotes pero sin necesidad de sangre. Tambien Mary Beth Edelson, por su enfoque feminista y dichas representaciones.
+          
+          ​
+          
+          Actualmente se esta especializando en videoarte, con un gran interes en lo de la curaduria.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Proyectos</p>
+            <p>He participado en diversos eventos, siendo el más destacado el Festival Quimera 2022, con la obra 'El panal', y en la elaboración del documental del mismo evento.
+              Además de haberse expuesto mi pieza artística '¿Qué se siente ser tú?' en el Museo Leopoldo Flores de la ciudad de Toluca, México.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Videomapping</span>
+              <span class="badge text-bg-primary">Expociones</span>
+              <span class="badge text-bg-primary">Galeria</span>
+              
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Ilustraciones</p>
+            <p>Mis ilustraciones son realizadas en su mayoria con los programs de Adobe, sin embargo, cuando se trata de collage digital, me baso de diversas tecnicas, siempre son abordadas de forma conceptual. 
+              Empeze en el mundo del arte por medio de las ilustraciones y nunca he parado. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Collage Digital</span>
+              <span class="badge text-bg-primary">App de Adobe</span>
+              <span class="badge text-bg-primary">Dibujo Digital</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Mi interes por el arte empezo desde que obtuve el titulo de tecnica en Diseño Grafico, sin emebargo siempre he buscado algo no tan comercial y mas experimental y emocional. Por ese motivo estoy estudiando Arte Digital en la UAEMEX, con especializacion en Videoarte.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Diseño Grafico</span>
+              <span class="badge text-bg-primary">Arte Digital</span>
+              <span class="badge text-bg-primary">Video Arte</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://i.pinimg.com/564x/d7/f5/88/d7f5887192565600ef2ef767a515b685.jpg" alt="Festival Quimera">
+              <div class="overlay">
+                <p>Festival Quimera</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://i.pinimg.com/564x/dd/7a/4c/dd7a4ce43178122d4bc7e2297e67db42.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>¿Que se siente ser tú? Videomapping</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://i.pinimg.com/564x/58/dc/d6/58dcd657d14901d5523d8d96552291a3.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Collage Digital</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://i.pinimg.com/564x/c1/07/57/c1075769034b77a06cbe398e5eaa39fd.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Video Arte</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://i.pinimg.com/564x/f7/e9/22/f7e9229c1b08bdec4fb64923b1ed3b97.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Montaje de fotografia</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://i.pinimg.com/564x/c0/f5/da/c0f5daf0d67dd4144c57a33d62749564.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Ilustraciones</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis compañeros y profesionales...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://i.pinimg.com/564x/a6/5c/e3/a65ce35b27904e8097286594b53ce8f1.jpg" alt="Foto de ade">
+              <p class="testimonio-texto">Participamos juntas en el festival Quimera y no cabe duda que es una de las mejores compañeras que he tenido, su paciencia y dedicacion me inpiraron a volver a participar.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Adela</p>
+                <p class="cargo">Artista Digital</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://i.pinimg.com/564x/d8/7c/a2/d87ca2d64e47cb216309f2ac8fd22325.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">He tenido a Carlen como alumno por muchos años, y puedo asegurar que es una persona aplicada y desarrolla muy bien la conceptualizacion de una idea.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Diego Ortega</p>
+                <p class="cargo">Docente de Animacion</p>
+              </div>
+            </div>
+          </div>
+         <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://i.pinimg.com/564x/77/ca/7b/77ca7b9df8c8da295d9252efe6fde94a.jpg" alt="Foto de profe diego">
+              <p class="testimonio-texto">Imparto los cursos basicos de los programas de Adobe en la facultad de Artes de la UAEMEX y Carlen es de las alumnas mas memorables.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Cinthia Sanchez</p>
+                <p class="ca rgo">Docente de graficos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar un proyecto artistico y haré que tu visión se vuelva realidad, mientras aprendemos el uno del otro.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="CarLenMiranda101@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="https://i.pinimg.com/564x/d7/f5/88/d7f5887192565600ef2ef767a515b685.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+          
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="CaLenMiranda101@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+        <id>www.linkedin.com/in/carla-elena-garcia-miranda-867616298</id>
+      </div>
+      <div class="derechos-de-autor">Creado por CarLen Miranda (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
